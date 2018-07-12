@@ -1,0 +1,82 @@
+{"level":"verbose","message":"Webinar register-POST called ","timestamp":"11:45:29"}
+{"level":"error","message":"Some Error while updating userMongoError: E11000 duplicate key error index: webinar.webinars.$phone_1 dup key: { : null }","timestamp":"11:45:29"}
+{"level":"info","message":"::1 - - [12/Jul/2018:06:45:29 +0000] \"POST /api/webinar/register HTTP/1.1\" 200 81 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"11:45:29"}
+{"level":"verbose","message":"Webinar register-POST called ","timestamp":"11:47:29"}
+{"level":"info","message":"Webinar Register..!!","timestamp":"11:47:29"}
+{"level":"info","message":"::1 - - [12/Jul/2018:06:47:29 +0000] \"POST /api/webinar/register HTTP/1.1\" 200 587 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"11:47:29"}
+{"level":"verbose","message":"Webinar register-POST called ","timestamp":"11:48:07"}
+{"level":"error","message":"Some Error while updating userMongoError: E11000 duplicate key error index: webinar.webinars.$phone_1 dup key: { : null }","timestamp":"11:48:07"}
+{"level":"info","message":"::1 - - [12/Jul/2018:06:48:07 +0000] \"POST /api/webinar/register HTTP/1.1\" 200 81 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"11:48:07"}
+{"level":"verbose","message":"Webinar register-POST called ","timestamp":"11:49:00"}
+{"level":"info","message":"Webinar Register..!!","timestamp":"11:49:00"}
+{"level":"info","message":"::1 - - [12/Jul/2018:06:49:00 +0000] \"POST /api/webinar/register HTTP/1.1\" 200 608 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"11:49:00"}
+{"level":"verbose","message":"Webinar register-POST called ","timestamp":"11:49:07"}
+{"level":"info","message":"Webinar Register..!!","timestamp":"11:49:07"}
+{"level":"info","message":"::1 - - [12/Jul/2018:06:49:07 +0000] \"POST /api/webinar/register HTTP/1.1\" 200 608 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"11:49:07"}
+{"level":"info","message":"GET listOfWebinar route called!!","timestamp":"11:57:48"}
+{"level":"info","message":"2Webinars Found","timestamp":"11:57:49"}
+{"level":"info","message":"::1 - - [12/Jul/2018:06:57:49 +0000] \"GET /api/webinar/listOfWebinar HTTP/1.1\" 200 1157 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"11:57:49"}
+{"level":"info","message":"GET listOfWebinar route called!!","timestamp":"11:58:05"}
+{"level":"info","message":"2Webinars Found","timestamp":"11:58:09"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jul/2018:06:58:09 +0000] \"GET /api/webinar/listOfWebinar HTTP/1.1\" 200 1157 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"11:58:09"}
+{"level":"info","message":"GET listOfWebinar route called!!","timestamp":"12:01:26"}
+{"level":"info","message":"1Webinars Found","timestamp":"12:01:27"}
+{"level":"info","message":"::1 - - [12/Jul/2018:07:01:27 +0000] \"GET /api/webinar/getById/5b46f9dc3ac50b3438d79cf6 HTTP/1.1\" 200 606 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"12:01:27"}
+{"level":"info","message":"::1 - - [12/Jul/2018:07:11:02 +0000] \"DELETE /api/webinar/getById/5b46f9dc3ac50b3438d79cf6 HTTP/1.1\" 200 71 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"12:11:02"}
+{"level":"verbose","message":"Webinar register-POST called ","timestamp":"12:12:40"}
+{"level":"info","message":"Webinar Register..!!","timestamp":"12:12:40"}
+{"level":"info","message":"::1 - - [12/Jul/2018:07:12:40 +0000] \"POST /api/webinar/register HTTP/1.1\" 200 586 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"12:12:40"}
+{"level":"info","message":"::1 - - [12/Jul/2018:09:39:04 +0000] \"POST /api/webinar/uploadImage HTTP/1.1\" 404 163 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"14:39:04"}
+{"level":"info","message":"::1 - - [12/Jul/2018:09:39:53 +0000] \"POST /api/users/uploadImage HTTP/1.1\" 500 61 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"14:39:53"}
+{"level":"info","message":"::1 - - [12/Jul/2018:09:40:21 +0000] \"POST /api/users/uploadImage HTTP/1.1\" 500 61 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"14:40:21"}
+{"level":"info","message":"::1 - - [12/Jul/2018:09:42:36 +0000] \"POST /api/users/uploadImage HTTP/1.1\" 500 61 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"14:42:36"}
+{"level":"info","message":"::1 - - [12/Jul/2018:09:43:24 +0000] \"POST /api/users/uploadImage HTTP/1.1\" 500 61 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"14:43:24"}
+{"level":"info","message":"::1 - - [12/Jul/2018:09:45:00 +0000] \"POST /api/users/uploadImage HTTP/1.1\" 500 61 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"14:45:00"}
+{"level":"info","message":"::1 - - [12/Jul/2018:09:47:00 +0000] \"POST /api/users/uploadImage HTTP/1.1\" 500 61 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"14:47:00"}
+{"level":"info","message":"::1 - - [12/Jul/2018:09:50:51 +0000] \"POST /api/users/uploadImage HTTP/1.1\" 500 61 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"14:50:51"}
+{"level":"info","message":"::1 - - [12/Jul/2018:10:01:22 +0000] \"POST /api/users/uploadImage HTTP/1.1\" 404 161 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"15:01:22"}
+{"level":"info","message":"::1 - - [12/Jul/2018:10:01:46 +0000] \"POST /api/users HTTP/1.1\" 500 61 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"15:01:46"}
+{"level":"info","message":"::1 - - [12/Jul/2018:10:08:38 +0000] \"POST /api/users/profileImage HTTP/1.1\" 500 61 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"15:08:38"}
+{"level":"info","message":"::1 - - [12/Jul/2018:10:11:30 +0000] \"POST /api/users/profileImage HTTP/1.1\" 500 61 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"15:11:30"}
+{"level":"info","message":"::1 - - [12/Jul/2018:10:17:38 +0000] \"POST /api/users/profileImage HTTP/1.1\" 500 245 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"15:17:38"}
+{"level":"info","message":"undefinedUser Found","timestamp":"15:34:36"}
+{"level":"info","message":"::1 - - [12/Jul/2018:10:34:36 +0000] \"POST /api/users/profileImage HTTP/1.1\" 200 468 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"15:34:36"}
+{"level":"info","message":"undefinedUser Found","timestamp":"15:39:33"}
+{"level":"info","message":"::1 - - [12/Jul/2018:10:39:33 +0000] \"POST /api/users/profileImage HTTP/1.1\" 200 468 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"15:39:33"}
+{"level":"info","message":"undefinedUser Found","timestamp":"15:51:05"}
+{"level":"info","message":"::1 - - [12/Jul/2018:10:51:05 +0000] \"POST /api/users/profileImage HTTP/1.1\" 200 382 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"15:51:05"}
+{"level":"info","message":"undefinedUser Found","timestamp":"15:52:17"}
+{"level":"info","message":"::1 - - [12/Jul/2018:10:52:17 +0000] \"POST /api/users/profileImage HTTP/1.1\" 200 382 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"15:52:17"}
+{"level":"info","message":"::1 - - [12/Jul/2018:10:53:40 +0000] \"POST /api/users/register HTTP/1.1\" 200 317 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"15:53:40"}
+{"level":"info","message":"::1 - - [12/Jul/2018:10:57:32 +0000] \"POST /api/users/register HTTP/1.1\" 200 292 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"15:57:32"}
+{"level":"info","message":"::1 - - [12/Jul/2018:10:58:07 +0000] \"POST /api/users/profileImage HTTP/1.1\" 200 280 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"15:58:07"}
+{"level":"info","message":"undefinedUser Found","timestamp":"16:00:06"}
+{"level":"info","message":"::1 - - [12/Jul/2018:11:00:06 +0000] \"POST /api/users/profileImage HTTP/1.1\" 200 366 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"16:00:06"}
+{"level":"info","message":"undefinedUser Found","timestamp":"16:02:44"}
+{"level":"info","message":"::1 - - [12/Jul/2018:11:02:44 +0000] \"POST /api/users/profileImage HTTP/1.1\" 200 366 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"16:02:44"}
+{"level":"info","message":"::1 - - [12/Jul/2018:11:02:57 +0000] \"POST /api/users/profileImage HTTP/1.1\" 400 70 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"16:02:57"}
+{"level":"info","message":"undefinedUser Found","timestamp":"16:05:01"}
+{"level":"info","message":"::1 - - [12/Jul/2018:11:05:01 +0000] \"POST /api/users/profileImage HTTP/1.1\" 200 365 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"16:05:01"}
+{"level":"info","message":"undefinedUser Found","timestamp":"16:05:43"}
+{"level":"info","message":"::1 - - [12/Jul/2018:11:05:43 +0000] \"POST /api/users/profileImage HTTP/1.1\" 200 369 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"16:05:43"}
+{"level":"info","message":"::1 - - [12/Jul/2018:11:31:35 +0000] \"POST /api/users/settings HTTP/1.1\" 500 61 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"16:31:35"}
+{"level":"info","message":"::1 - - [12/Jul/2018:11:33:09 +0000] \"POST /api/users/settings HTTP/1.1\" 400 24 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"16:33:09"}
+{"level":"info","message":"::1 - - [12/Jul/2018:11:33:43 +0000] \"POST /api/users/settings HTTP/1.1\" 200 322 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"16:33:43"}
+{"level":"info","message":"::1 - - [12/Jul/2018:11:37:53 +0000] \"POST /api/users/register HTTP/1.1\" 200 293 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"16:37:53"}
+{"level":"info","message":"::1 - - [12/Jul/2018:11:38:13 +0000] \"POST /api/users/settings HTTP/1.1\" 200 286 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"16:38:13"}
+{"level":"info","message":"::1 - - [12/Jul/2018:11:51:00 +0000] \"POST /api/users/profile HTTP/1.1\" 500 61 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"16:51:00"}
+{"level":"info","message":"::1 - - [12/Jul/2018:11:51:21 +0000] \"POST /api/users/profile HTTP/1.1\" 200 388 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"16:51:21"}
+{"level":"info","message":"::1 - - [12/Jul/2018:12:10:34 +0000] \"POST /api/users/register HTTP/1.1\" 200 293 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"17:10:34"}
+{"level":"info","message":"::1 - - [12/Jul/2018:12:10:49 +0000] \"POST /api/auth HTTP/1.1\" 200 288 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"17:10:49"}
+{"level":"info","message":"GET /users/me called","timestamp":"17:11:28"}
+{"level":"info","message":"::1 - - [12/Jul/2018:12:11:28 +0000] \"GET /api/users/me HTTP/1.1\" 500 61 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"17:11:28"}
+{"level":"info","message":"GET /users/me called","timestamp":"17:13:25"}
+{"level":"info","message":"::1 - - [12/Jul/2018:12:13:25 +0000] \"GET /api/users/me/5b47453ad936ae3d901f9feb HTTP/1.1\" 200 279 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"17:13:25"}
+{"level":"info","message":"::1 - - [12/Jul/2018:12:15:18 +0000] \"POST /api/auth HTTP/1.1\" 400 62 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"17:15:18"}
+{"level":"info","message":"::1 - - [12/Jul/2018:12:15:53 +0000] \"POST /api/auth HTTP/1.1\" 200 288 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"17:15:53"}
+{"level":"info","message":"::1 - - [12/Jul/2018:12:16:46 +0000] \"POST /api/users/profileImage HTTP/1.1\" 400 14 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"17:16:46"}
+{"level":"info","message":"::1 - - [12/Jul/2018:12:17:02 +0000] \"POST /api/auth HTTP/1.1\" 200 288 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"17:17:02"}
+{"level":"info","message":"undefinedUser Found","timestamp":"17:17:30"}
+{"level":"info","message":"::1 - - [12/Jul/2018:12:17:30 +0000] \"POST /api/users/profileImage HTTP/1.1\" 200 370 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"17:17:30"}
+{"level":"info","message":"::1 - - [12/Jul/2018:12:19:21 +0000] \"POST /api/users/settings HTTP/1.1\" 200 375 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"17:19:21"}
+{"level":"info","message":"::1 - - [12/Jul/2018:12:20:18 +0000] \"POST /api/users/profile HTTP/1.1\" 200 477 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"17:20:18"}
