@@ -9,10 +9,10 @@ const webinarSchema = new mongoose.Schema({
 
   web_name: { type: String,  maxlength: 50 },
   web_date: { type: Date },
-  web_day: { type: Date },
+  web_day: { type: String },
   web_start_time: { type: Date },
   web_description: { type: String,  maxlength: 500 },
-  web_utc: { type: Date },
+  web_utc: { type: String },
   web_topic: { type: String,  maxlength: 50 },
 
 }, { timestamps: true });

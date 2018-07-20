@@ -23,13 +23,19 @@ router.post('/', async (req, res) => {
   const validPassword = await bcrypt.compare(password, user.password);
   if (!validPassword) return res.status(400).jsonp({ status: 'failure', message: 'Invalid Password.' , object: []});
 
-  
+  let userResponseObj = {};
   const token = user.generateAuthToken();
   res.setHeader('x-auth-token', token);
+  userResponseObj = {
+    '_id': user._id,
+    'token': token,
+    'name': user.name,
+    'email': user.email
+  }
   res.jsonp({
     status : "success",
     message : "successfully Logged In",
-    object : user
+    object : userResponseObj
   }); 
 
 });
